@@ -25,9 +25,9 @@ Usage of consul-kv-migrate:
 
 ```bash
 consul-kv-migrate \
-    -target-addr 192.168.1.10:8500 \
+    -target-addr 192.168.2.10:8500 \
     -target-token xxxxx-xxxxx-xxxxx-xxxx-xxxx \
-    -src-addr 192.168.2.10:8500 \
+    -src-addr 192.168.1.10:8500 \
     -src-token yyyy-yyyy-yyyyy-yyyyy-yyyy \
     -action migrate
 ```
@@ -36,9 +36,9 @@ consul-kv-migrate \
 
 ```bash
 consul-kv-migrate \
-    -target-addr 192.168.1.10:8500 \
+    -target-addr 192.168.2.10:8500 \
     -target-token xxxxx-xxxxx-xxxxx-xxxx-xxxx \
-    -src-addr 192.168.2.10:8500 \
+    -src-addr 192.168.1.10:8500 \
     -src-token yyyy-yyyy-yyyyy-yyyyy-yyyy \
     -action diff
 ```
