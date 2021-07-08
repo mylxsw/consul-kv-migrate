@@ -43,4 +43,5 @@ consul-kv-migrate \
     -action diff
 ```
 
+> 在命令行下，可以通过管道符连接 `sed 's/^-/\x1b[1;31m-/;s/^+/\x1b[1;32m+/;s/^@/\x1b[1;34m@/;s/$/\x1b[0m/'` 实现 diff 输出高亮显示
 
